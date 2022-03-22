@@ -142,6 +142,7 @@ public class Java_Assignments {
         for (Map.Entry<String, String> entry : mapFromFile.entrySet()) {
             System.out.println(entry.getKey().toLowerCase());
         }
+        
     }
 
     public static Map<String, String> HashMapFromTextFile() {
